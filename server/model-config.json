@@ -31,5 +31,29 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "person": {
+    "dataSource": "heroku-postgres",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "questionnaire": {
+    "dataSource": "heroku-postgres",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "question": {
+    "dataSource": "heroku-postgres",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "answer": {
+    "dataSource": "heroku-postgres",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

@@ -1,0 +1,45 @@
+{
+  "name": "question",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "required": {
+      "type": "boolean",
+      "required": true
+    },
+    "createdDate": {
+      "type": "date",
+      "required": true
+    },
+    "modifiedDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "questionnaire": {
+      "type": "belongsTo",
+      "model": "questionnaire",
+      "foreignKey": ""
+    },
+    "creator": {
+      "type": "belongsTo",
+      "model": "person",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
