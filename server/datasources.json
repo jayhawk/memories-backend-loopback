@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "heroku-postgres": {
+    "host": "ec2-54-163-239-28.compute-1.amazonaws.com",
+    "port": 5432,
+    "url": "postgres://yxphmmktdysvsc:bPiP3yje0iUQj7glyiCtkFlLxi@ec2-54-163-239-28.compute-1.amazonaws.com:5432/d3n2r9ldvubn7n?ssl=true",
+    "database": "d3n2r9ldvubn7n",
+    "password": "bPiP3yje0iUQj7glyiCtkFlLxi",
+    "name": "heroku-postgres",
+    "user": "yxphmmktdysvsc",
+    "connector": "postgresql"
   }
 }
