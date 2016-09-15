@@ -33,25 +33,25 @@
     "public": false
   },
   "person": {
-    "dataSource": "heroku-postgres",
+    "dataSource": "herokuPostgres",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "questionnaire": {
-    "dataSource": "heroku-postgres",
+    "dataSource": "herokuPostgres",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "question": {
-    "dataSource": "heroku-postgres",
+    "dataSource": "herokuPostgres",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "answer": {
-    "dataSource": "heroku-postgres",
+    "dataSource": "herokuPostgres",
     "public": true,
     "$promise": {},
     "$resolved": true
