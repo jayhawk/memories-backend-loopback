@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "heroku-postgres": {
-    "host": "ec2-54-163-239-28.compute-1.amazonaws.com",
+    "host": "ec2-54-83-47-88.compute-1.amazonaws.com",
     "port": 5432,
-    "url": "postgres://yxphmmktdysvsc:bPiP3yje0iUQj7glyiCtkFlLxi@ec2-54-163-239-28.compute-1.amazonaws.com:5432/d3n2r9ldvubn7n?ssl=true",
-    "database": "d3n2r9ldvubn7n",
-    "password": "bPiP3yje0iUQj7glyiCtkFlLxi",
+    "url": "postgres://nfnyxiydaixwqp:Jz3H5lAxaSjE4IB31tXv3J6zmS@ec2-54-83-47-88.compute-1.amazonaws.com:5432/dak1gjg9rn7udm?ssl=true",
+    "database": "dak1gjg9rn7udm",
+    "password": "Jz3H5lAxaSjE4IB31tXv3J6zmS",
     "name": "heroku-postgres",
-    "user": "yxphmmktdysvsc",
+    "user": "nfnyxiydaixwqp",
     "connector": "postgresql"
   }
 }
