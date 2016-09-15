@@ -19,3 +19,4 @@ dist
 coverage
 node_modules
 npm-debug.log
+datasources.local.json
