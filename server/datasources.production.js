@@ -1,5 +1,5 @@
 module.exports = {
-  heroku-postgres: {
+  herokuPostgres: {
     connector: "postgresql",
     url: process.env.DATABASE_URL
   },
